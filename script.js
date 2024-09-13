@@ -2,7 +2,7 @@ function isSameType(value1, value2) {
     if(Number(value1) === NaN &&  Number(value2) === NaN){
 		 return true
 	}
-	else if(Number(value1) !== NaN && Number(value2) !== NaN && typeof Number === typeof Number{
+	else if(Number(value1) !== NaN && Number(value2) !== NaN && typeof Number(value1) === typeof Number(value2) {
 		 return true
 		}    
 	
